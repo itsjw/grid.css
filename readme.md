@@ -2,7 +2,7 @@
 A 565 bytes minified grid system. No more No less
 grid.css is a minimal grid system. It is only 565 bytes minified. grid.css is perfect for small projects like creating a pen on codepen where you don't want to include a full library like Bootstrap or Foundation. grid.css also doesn't change any font styles or default styles, so you can add it to an ongoing project without messing up your design.
 ### grid system
-![grid system](https://github.com/ahmedtarek2134/grid.css/demo/img/grid.png)
+![grid system](https://ahmedtarek2134.github.io/grid.css/demo/img/grid.png)
 The grid system consists of 12 columns
 ### usage
 * link the grid.css to your html
