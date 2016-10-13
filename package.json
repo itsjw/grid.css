@@ -1,0 +1,35 @@
+{
+  "name": "grid.css",
+  "version": "1.0.0",
+  "description": "A minimal grid system that is only 673bytes minified",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedtarek2134/grid.css.git"
+  },
+  "keywords": [
+    "grid",
+    "css",
+    "minimal",
+    "stylus"
+  ],
+  "author": "Ahmed Tarek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedtarek2134/grid.css/issues"
+  },
+  "homepage": "https://github.com/ahmedtarek2134/grid.css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-pug": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
