@@ -9,7 +9,7 @@ The grid system consists of 12 columns
 ```html
 <link rel="stylesheet" href="path/to/grid.css">
 ```
-* CDN: ```https://ahmedtarek2134.github.io/grid.css/dist/grid.min.css
+* CDN: ```https://ahmedtarek2134.github.io/grid.css/dist/grid.min.css```
 * add the class of ```row``` and inside it your desired column sizes like 2 col6s of three col4
 ```html
 <div class="row">
