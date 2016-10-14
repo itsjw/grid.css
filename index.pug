@@ -17,106 +17,71 @@ html(lang="en")
     meta(name="theme-color", content="#ffffff")
     link(rel="stylesheet", href="dist/grid.min.css")
     link(rel="stylesheet", href="demo/css/style.css")
-    link(rel="stylesheet", href="https://ahmedtarek2134.github.io/Butns/dist/butns.min.css")
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
-    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Raleway")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Open+Sans|Pacifico")
   body
     header.header_section
       .container
-        .text-center
+        .content
+          a.fa.fa-github.fa-4x(href="https://github.com/ahmedtarek2134/grid.css")
           h1 grid.css
-          h4 A 565 bytes minified grid system. No more No less
-          p V1.0.0
-          a.button.border-white.transition.medium(href="https://github.com/ahmedtarek2134/grid.css") <i class="fa fa-download"></i> Download Now
+          p Just A grid system, No more no less.
+          a.download-button(href="https://github.com/ahmedtarek2134/grid.css") <i class="fa fa-download"></i> Download
     section.about_section
       .container
-        .text-center
-          h1 About grid.css
+        .content
+          h1 About <span>grid.css</span>
           p grid.css is a minimal grid system. It is only 565 bytes minified. grid.css is perfect for small projects like creating a pen on codepen where you don't want to include a full library like Bootstrap or Foundation. grid.css also doesn't change any font styles or default styles, so you can add it to an ongoing project without messing up your design.
-    section.grid
+          hr
+    section.grid-system
       .container
-        h1.header Grid system
-        h4 The grid system consists of 12 columns
-        .grid-layout
-          .row.zero
-            .col12
-              p col12
-          .row.first
-            .col1
-              p col1
-            .col11
-              p col11
-          .row.second
-            .col2
-              p col2
-            .col10
-              p col10
-          .row.third
-            .col3
-              p col3
-            .col9
-              p col9
-          .row.fourth
-            .col4
-              p col4
-            .col8
-              p col8
-          .row.fifth
-            .col5
-              p col5
-            .col7
-              p col7
-          .row.sixth
-            .col6
-              p col6
-            .col6.second
-              p col6
-          .row.seventh
-            .col7
-              p col7
-            .col5
-              p col5
-          .row.eight
-            .col8
-              p col8
-            .col4
-              p col4
-          .row.ninth
-            .col9
-              p col9
-            .col3
-              p col3
-          .row.tenth
-            .col10
-              p col10
-            .col2
-              p col2
-          .row.eleventh
-            .col11
-              p col11
-            .col1
-              p col1
-          .row.zero
-            .col12
-              p col12
-    section.usage_section
+        .content
+          h1 The <span>grid</span> system
+          p The grid system is based on 12 columns
+          img(src="demo/img/grid.png", alt="grid layout")
+          hr
+    section.usage
       .container
-        .text-center
-          h1.header Usage
-        .text-left
-          p 1- Link grid.css in your html <span>&lt;link rel="stylesheet" href="path/to/grid.css"&gt;</span>
-          p.cdn CDN: <span>https://ahmedtarek2134.github.io/grid.css/dist/grid.min.css</span>
-          p 2- To make a grid layout, simply add the class of <span>row</span> and your desired sizes class like two col6s or three col4 divs
-          p <span>&lt;div class="row"&gt;&lt;div class="col12"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+        .content
+          h1 Using <span>grid</span>
+          p
+            | 1- Download grid.css
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;cdn: https://ahmedtarek2134.gtihub.io/grid.css/dist/grid.min.css
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;locally: <a href="#">Click To Download</a>
+            br
+            br
+            | 2- Link grid.css in your html
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;<span>&lt;link rel=”stylesheet” href=”path/to/grid.min.css”&gt;</span>
+            br
+            br
+            | 3- To add a row, simply add a div with the class of row
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;<span>&lt;div class=”row”&gt;&lt;/div&gt;</span>
+            br
+            br
+            | 4- For your columns classes they need to be inside the div with the class row and they should addup to 12 in total. Like three col4s or two col6s
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;&lt;div class="row"&gt;
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;div class="col4"&gt;&lt;/div&gt;
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;div class="col4"&gt;&lt;/div&gt;
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;div class="col4"&gt;&lt;/div&gt;
+            br
+            | &#160;&#160;&#160;&#160;&#160;&#160;&lt;/div&gt;
+          hr
     section.license
       .container
-        .text-center
-          h1.header License
-          p grid.css is licensed under the MIT license
-          p
-            | The MIT License (MIT)
+        .content
+          h1 <span>grid.css</span> license
+          p <span>grid.css</span> is licensed under the MIT license
             br
+            | The MIT License (MIT)
             | Copyright (c) 2016 Ahmed Tarek
             br
             | Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -124,7 +89,12 @@ html(lang="en")
             | The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
             br
             | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+    footer
+      .text-center
+        p <span>grid.css</span>
+          br
+          br
+          | &copy; Copyright 2016 Ahmed Tarek All rights reserved
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js")
     script(src="demo/js/script.min.js")

@@ -1,210 +1,129 @@
-$theme: #9d00ff
-*
-  box-sizing: border-box
-.header
-  border-bottom: 1px solid $theme
-  display: inline-block
-  padding: 0px 20px 10px 20px
-  text-align: center
-.header_section
-  height: 75vh
-  width: 100%
-  display: flex
-  justify-content: center
-  align-items: center
-  color: white
+$theme: #9d02ff
+$secondary: #3d3d3d
+$text: #767676
+body
   font-family: Open Sans, sans-serif
-  background:
-    image: url(../img/background.jpg)
-    position: center center
-    repeat: no-repeat
-    size: cover
-  box-shadow: 0px 0px 10px 0px rgba(#111, 0.43)
+.header_section
+  height: 90vh
+  width: 100vw
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+  background: url(../img/background.png) center center no-repeat
+  background-size: cover
+  color: white
   .container
-    .text-center
-      text-align: center
+    .content
+      padding-bottom: 120px
+      .fa-github
+        text-decoration: none
+        position: absolute
+        top: .3em
+        left: .3em
+        color: white
       h1
         font-family: Pacifico, cursive
-        font-size: 5rem
+        font-size: 4em
         font-weight: lighter
-      h4
-        margin-left: 5px
-        margin-right: 5px
-      .button
-        font-family: Open Sans, sans-serif
-        padding: 15px 30px
-        &:hover
+        text-shadow: 0px 0px 35px rgba(0, 0, 0, 0.5)
+      p
+        font-family: Josefin Sans, sans-serif
+        font-size: 1.3em
+        margin-bottom: 2em
+      .download-button
+        text-decoration: none
+        color: white
+        padding: 12px 30px
+        border: 2px solid white
+        transition: .2s
+        &:hover,&:focus
           color: $theme
+          background-color: #fff
 .about_section
   text-align: center
-  color: rgba(#111, 0.8)
-  font-family: Open Sans, sans-serif
-  width: 70%
-  margin: auto
-  line-height: 1.5
   .container
-    .text-center
+    .content
       h1
-        border-bottom: 1px solid $theme
-        display: inline-block
-        padding: 0px 20px 10px 20px
+        font-family: Josefin Sans, sans-serif
+        font-weight: lighter
+        padding-bottom: 20px
+        span
+          font-family: Pacifico, cursive
       p
-        margin-top: 0px
-.grid
-  width: 100%
-  text-align: center
-  color: rgba(#111, 0.8)
-  font-family: Open Sans, sans-serif
-  margin-top: 100px
-  .container
-    h1
-      margin: 0
-    .grid-layout
-      width: 70%
-      margin: auto
-      border-radius: 5px
-      box-shadow: 0px 0px 10px 0px rgba(#111, 0.43)
-      .row
-        padding: 10px
-        border-radius: 5px
-      .row.zero
-        .col12
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-      .row.first
-        .col1
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col11
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.second
-        .col2
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col10
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.third
-        .col3
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col9
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.fourth
-        .col4
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col8
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.fifth
-        .col5
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col7
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.sixth
-        .col6
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col6.second
-          border-left-width: 0px
-      .row.seventh
-        .col7
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col5
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.eight
-        .col8
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col4
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.ninth
-        .col9
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col3
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.tenth
-        .col10
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col2
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-      .row.eleventh
-        .col11
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-        .col1
-          background-color: lightgray
-          color: white
-          border: 1px solid gray
-          border-left-width: 0px
-
-span
-  color: black
-  background-color: lightgray
-  padding: 5px
-  border-radius: 5px
-.usage_section
-  padding-top: 100px
-  font-family: Open Sans, sans-serif
-  width: 70%
-  margin: auto
-  text-align: center
-  .container
-    .text-left
-      text-align: left
-      p
+        width: 95%
+        margin: auto
+        color: $text
         line-height: 2
-.license
+        padding-bottom: 58px
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid rgba($text, 0.3)
+  margin: 1em 0
+  padding: 0
+.grid-system
   text-align: center
-  line-height: 1.5
-  width: 70%
-  margin: auto
-  padding-top: 100px
+  .container
+    .content
+      h1
+        padding-top: 58px
+        font-family: Josefin Sans, sans-serif
+        font-weight: lighter
+        span
+          font-family: Pacifico, cursive
+      p
+        font-size: 15px
+        color: $text
+      img
+        width: 85%
+        padding-bottom: 58px
+.usage
+  padding-top: 58px
+  padding-bottom: 58px
+  .container
+    .content
+      h1
+        text-align: center
+        font-family: Josefin Sans, sans-serif
+        font-weight: lighter
+        span
+          font-family: Pacifico, cursive
+      p
+        line-height: 1.5
+        width: 95%
+        margin: auto
+        padding-bottom: 58px
+        color: $text
 
-@media (max-width: 680px)
-  .license,.usage_section,.header_section,.about_section,.grid
-    width: 95%
-  .cdn
-    font-size: 12px
+.license
+  padding-bottom: 58px
+  width: 95%
+  margin: auto
+  .container
+    .content
+      h1
+        text-align: center
+        font-family: Josefin Sans, sans-serif
+        font-weight: lighter
+        span
+          font-family: Pacifico, cursive
+      p
+        line-height: 1.7
+        color: $text
+        span
+          font-family: Pacifico, cursive
+footer
+  text-align: center
+  background-color: $theme
+  box-shadow: 0px 0px 10px 0px rgba(#111, 0.5)
+  .text-center
+    p
+      margin-bottom: 0
+      padding-bottom: 10px
+      padding-top: 10px
+      color: white
+      span
+        font-family: Pacifico, cursive
+        font-size: 30px
