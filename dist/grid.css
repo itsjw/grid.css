@@ -53,7 +53,7 @@
 .col12 {
   width: 100%;
 }
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .col1,
   .col2,
   .col3,
