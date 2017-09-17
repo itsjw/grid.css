@@ -108,6 +108,7 @@ html,body
 #system,.license
   p
     margin-top 0
+    line-height 1.6
 
 .footer
   background #111
@@ -124,3 +125,27 @@ html,body
         transform scale(1.2)
   p
     margin-bottom 0
+
+@media (max-width:768px)
+  #header
+    .fa-github
+      left 15px
+      top 15px
+      font-size 4em
+    .content-wrapper
+      .button.download
+        display none
+    .fa-angle-down
+      bottom 5px
+  .section
+    padding 30px 5%
+    img
+      width 90vw
+    ul
+      padding-left 7%
+  .footer
+    .links
+      a
+        font-size 2em
+    p
+      font-size 13px

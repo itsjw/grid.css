@@ -166,6 +166,7 @@ body {
 #system p,
 .license p {
   margin-top: 0;
+  line-height: 1.6;
 }
 
 .footer {
@@ -190,4 +191,40 @@ body {
 
 .footer p {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #header .fa-github {
+    left: 15px;
+    top: 15px;
+    font-size: 4em;
+  }
+
+  #header .content-wrapper .button.download {
+    display: none;
+  }
+
+  #header .fa-angle-down {
+    bottom: 5px;
+  }
+
+  .section {
+    padding: 30px 5%;
+  }
+
+  .section img {
+    width: 90vw;
+  }
+
+  .section ul {
+    padding-left: 7%;
+  }
+
+  .footer .links a {
+    font-size: 2em;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
 }
