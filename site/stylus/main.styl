@@ -1,0 +1,126 @@
+html,body
+  background #111
+  overflow-x hidden
+  font-family Open Sans, Arial, Helvetica, sans-serif
+  font-weight 300
+
+#header
+  height 100vh
+  width 100vw
+  background url('../img/background.png') center center no-repeat
+  background-size cover
+  color white
+  display flex
+  align-items center
+  justify-content center
+  text-align center
+  .fa.fa-github
+    position absolute
+    left 35px
+    top 35px
+    text-decoration none
+    color white
+  .content-wrapper
+    position relative
+    h1
+      font-family Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+      font-size 2.8em
+      margin 0
+    p
+      margin 30px 0 40px 0
+    .button
+      padding 15px 50px
+      text-decoration none
+      color white
+      border 1px solid white
+      margin 0px 5px
+      transition .2s
+      &:hover
+        padding 15px 70px
+        background white
+        color #111
+  .fa-angle-down
+    width 100vw
+    text-decoration none
+    color white
+    position absolute
+    left 0
+    bottom 25px
+
+.section
+  background #fff
+  color #111
+  padding 30px 15%
+  text-align center
+  border-bottom 1px solid #d0d0d0
+  h1.title
+    display inline-block
+    padding 5px 15px
+    border-bottom 1px solid #111
+    font-family Josefin Sans, Arial, Helvetica, sans-serif
+    font-weight normal
+  code
+    background darken(white,10%)
+    padding 10px 30px
+    display inline-block
+    line-height 1.6
+    box-shadow 2px 2px 4px 0px rgba(#111,.4)
+  span.note
+    background orangered
+    color #fff
+    padding 4px 15px 2px 15px
+  span.npm,span.yarn,span.cdn,span.local
+    color #fff
+    padding 4px 10px 2px 10px
+    line-height 1.6
+    display inline-block
+    width 60px
+    text-align center
+    margin 5px 0px
+  span.npm
+    background red
+  span.yarn
+    background dodgerblue
+  span.cdn
+    background orange
+  span.local
+    background #111
+  .button-outer
+    text-align center
+    margin 40px 0px
+    .button
+      text-decoration none
+      color #111111
+      padding 15px 50px
+      border 1px solid #111
+      transition .2s
+      &:hover
+        background #111
+        color #fff
+        padding 15px 70px
+  .content
+    text-align left
+    p
+      line-height 1.6
+  img
+    width 70vw
+
+#system,.license
+  p
+    margin-top 0
+
+.footer
+  background #111
+  color #fff
+  border none
+  .links
+    a
+      color #fff
+      text-decoration none
+      padding 0 10px
+      transition .2s
+      &:hover
+        padding 0 30px
+        transform scale(1.2)
+  p
+    margin-bottom 0
