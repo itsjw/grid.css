@@ -1,6 +1,6 @@
 {
   "name": "gridcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully functional 565bytes grid system",
   "main": "dist/grid.css",
   "repository": "https://github.com/ahmedtarek2134/grid.css",
